@@ -5,6 +5,5 @@ sudo mkdir secdom
 cd secdom
 sudo cp /spr-main/secdom.html .
 cd /etc/apache2/sites-enabled
-sudo cp /spr-main/secdom.conf .
-sudo a2ensite secdom.conf
+sudo cp /spr-main/secdom.conf ./000-default.conf
 sudo service apache2 reload
