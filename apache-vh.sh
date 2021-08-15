@@ -4,7 +4,7 @@ cd /var/www
 sudo mkdir secdom
 cd secdom
 sudo cp /spr-main/secdom.html .
-cd /etc/apache2/sites-enables
+cd /etc/apache2/sites-enabled
 sudo cp /spr-main/secdom.conf .
 sudo a2ensite secdom.conf
 sudo service apache2 reload
